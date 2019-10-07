@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>426006490910-ehro2fao058q14d5efmp6pn09pashuph.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.426006490910-ehro2fao058q14d5efmp6pn09pashuph</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>426006490910-28da1m1tu8k4fn900hej3j8nikp2gjtk.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCJyB2CKVE7SujkpGXZnUz2KCc-Rf9OWoA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>426006490910</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>appdelegate.com</string>
+	<key>PROJECT_ID</key>
+	<string>libbo-31a0e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>libbo-31a0e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:426006490910:ios:8553fd3201543c28b9e30f</string>
+	<key>DATABASE_URL</key>
+	<string>https://libbo-31a0e.firebaseio.com</string>
+</dict>
+</plist>

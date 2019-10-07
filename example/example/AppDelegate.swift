@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,11 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let tintColor = UIColor(red: 249/255, green: 149/255, blue: 38/255, alpha: 1.0)
+        FirebaseApp.configure()
         
+        let tintColor = UIColor(red: 249/255, green: 149/255, blue: 38/255, alpha: 1.0)
         
         UITabBar.appearance().backgroundColor = .white
         UITabBar.appearance().tintColor = tintColor
+        
         // Override point for customization after application launch.
         return true
     }
