@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gnV-10-4pc">
-    <device id="retina5_9" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gnV-10-4pc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,12 +13,12 @@
             <objects>
                 <viewController id="UII-sQ-UrT" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Zw-jH-XOu">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.1760593466131426" blue="0.14536063831454293" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="a6j-yw-K7i"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Quest" image="icons8-escudo-de-pregunta-30" id="Jhs-Zb-lZq"/>
+                    <tabBarItem key="tabBarItem" title="Quest" image="Quest" id="Jhs-Zb-lZq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ugG-aL-HbL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -31,12 +29,12 @@
             <objects>
                 <viewController id="bb4-09-3mk" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7yJ-76-Vbb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.98149300667793471" blue="0.16190103741068818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="nIE-Ve-KCf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Libros" image="icons8-libro-abierto-30" id="LUW-Hn-8qH"/>
+                    <tabBarItem key="tabBarItem" title="Libros" image="libro" id="LUW-Hn-8qH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="anl-WE-dmm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -47,12 +45,12 @@
             <objects>
                 <viewController id="i3O-iz-gzQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8TO-pT-9qO">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="H1a-tz-dqZ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Solicitudes" image="icons8-invitaciÃ³n-30" id="FVH-pM-tac"/>
+                    <tabBarItem key="tabBarItem" title="Solicitudes" image="Request" id="FVH-pM-tac"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5pJ-Ry-eMh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -63,11 +61,11 @@
             <objects>
                 <viewController id="hh3-ZP-4oG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kGF-ao-Rtt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iq-qn-Dhx">
-                                <rect key="frame" x="112.66666666666669" y="381" width="150" height="50"/>
+                                <rect key="frame" x="112.5" y="308.5" width="150" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="Qqs-34-vU0"/>
                                     <constraint firstAttribute="height" constant="50" id="vfo-WB-bB0"/>
@@ -99,7 +97,7 @@
             <objects>
                 <viewController id="prW-OS-IAV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rS2-Ny-l0t">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.56152976997905069" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="wIg-S5-oTa"/>
@@ -133,10 +131,10 @@
         <scene sceneID="3em-R0-oAD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Y2c-iG-7zE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Perfil" image="icons8-usuario-de-gÃ©nero-neutro-30" id="z6s-yU-hww"/>
+                    <tabBarItem key="tabBarItem" title="Perfil" image="Usuario" id="z6s-yU-hww"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="e7e-vb-zIc">
-                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -150,9 +148,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icons8-escudo-de-pregunta-30" width="30" height="30"/>
-        <image name="icons8-invitaciÃ³n-30" width="30" height="30"/>
-        <image name="icons8-libro-abierto-30" width="30" height="30"/>
-        <image name="icons8-usuario-de-gÃ©nero-neutro-30" width="30" height="30"/>
+        <image name="Quest" width="30" height="30"/>
+        <image name="Request" width="30" height="30"/>
+        <image name="Usuario" width="30" height="30"/>
+        <image name="libro" width="30" height="30"/>
     </resources>
 </document>
