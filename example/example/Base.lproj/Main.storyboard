@@ -94,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H68-I4-0eE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1719.2" y="-764.16791604197908"/>
+            <point key="canvasLocation" x="2658.4000000000001" y="-764.16791604197908"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="H4Y-MW-Mth">
@@ -109,7 +109,56 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nti-xH-lUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2599" y="-764"/>
+            <point key="canvasLocation" x="3536.8000000000002" y="-764.16791604197908"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="iaL-uT-Wzw">
+            <objects>
+                <viewController id="Agm-Fc-sKd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DrL-X3-VDg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4qZ-mO-PyF">
+                                <rect key="frame" x="62" y="233" width="250" height="200"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4qZ-mO-PyF" firstAttribute="centerX" secondItem="DrL-X3-VDg" secondAttribute="centerX" id="WtC-KX-VY0"/>
+                            <constraint firstItem="4qZ-mO-PyF" firstAttribute="centerY" secondItem="DrL-X3-VDg" secondAttribute="centerY" id="zJk-CH-k45"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XNO-Yj-yww"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="271-JQ-IbO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vld-gE-c1Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1575.2" y="-1381.2593703148427"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZjP-Qu-UmP">
+            <objects>
+                <viewController id="tJX-fy-MX4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="htj-NY-VUo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y22-4p-UBT">
+                                <rect key="frame" x="62" y="233" width="250" height="200"/>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="y22-4p-UBT" firstAttribute="centerX" secondItem="htj-NY-VUo" secondAttribute="centerX" id="6bi-CP-hep"/>
+                            <constraint firstItem="y22-4p-UBT" firstAttribute="centerY" secondItem="htj-NY-VUo" secondAttribute="centerY" id="Q9f-Uh-WtK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="V1I-uT-0so"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YCD-BZ-TPk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-791" y="-1737"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Jrt-dR-j9i">
@@ -129,7 +178,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nqG-Rh-eD3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-282" y="-764"/>
+            <point key="canvasLocation" x="656.79999999999995" y="-764.16791604197908"/>
         </scene>
         <!--Perfil-->
         <scene sceneID="3em-R0-oAD">
@@ -148,7 +197,24 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t6Z-1i-1dK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="780" y="-764.16791604197908"/>
+            <point key="canvasLocation" x="1719.2" y="-764.16791604197908"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="87g-Tb-fa4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="PLW-6x-FPm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o5e-bW-Ocf">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Agm-Fc-sKd" kind="relationship" relationship="rootViewController" id="JBo-mi-a2J"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yGn-dz-Fol" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2340" y="-1381"/>
         </scene>
     </scenes>
     <resources>
