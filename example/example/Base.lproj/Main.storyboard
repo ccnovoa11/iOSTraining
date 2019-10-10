@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gnV-10-4pc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PLW-6x-FPm">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -36,7 +34,7 @@
                         <color key="backgroundColor" red="1" green="0.98149300667793471" blue="0.16190103741068818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="nIE-Ve-KCf"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Libros" image="Libro" id="LUW-Hn-8qH"/>
+                    <tabBarItem key="tabBarItem" title="Libros" image="libro" id="LUW-Hn-8qH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="anl-WE-dmm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,21 +109,42 @@
             </objects>
             <point key="canvasLocation" x="3536.8000000000002" y="-764.16791604197908"/>
         </scene>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="iaL-uT-Wzw">
             <objects>
-                <viewController id="Agm-Fc-sKd" sceneMemberID="viewController">
+                <viewController id="Agm-Fc-sKd" customClass="LoginViewController" customModule="example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DrL-X3-VDg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4qZ-mO-PyF">
-                                <rect key="frame" x="62" y="233" width="250" height="200"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="4qZ-mO-PyF">
+                                <rect key="frame" x="62.5" y="233.5" width="250" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="bQF-SK-15F"/>
+                                    <constraint firstAttribute="height" constant="200" id="q0p-qQ-Zg0"/>
+                                </constraints>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OS3-Lq-z5v">
+                                <rect key="frame" x="138.5" y="128" width="98" height="45"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign into your account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpj-yy-Egr">
+                                <rect key="frame" x="98" y="181" width="179" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="OS3-Lq-z5v" firstAttribute="centerX" secondItem="DrL-X3-VDg" secondAttribute="centerX" id="2MY-Zo-mEw"/>
                             <constraint firstItem="4qZ-mO-PyF" firstAttribute="centerX" secondItem="DrL-X3-VDg" secondAttribute="centerX" id="WtC-KX-VY0"/>
+                            <constraint firstItem="hpj-yy-Egr" firstAttribute="top" secondItem="OS3-Lq-z5v" secondAttribute="bottom" constant="8" id="eKY-uu-bxI"/>
+                            <constraint firstItem="hpj-yy-Egr" firstAttribute="centerX" secondItem="DrL-X3-VDg" secondAttribute="centerX" id="eRA-EX-Yu5"/>
+                            <constraint firstItem="4qZ-mO-PyF" firstAttribute="top" secondItem="hpj-yy-Egr" secondAttribute="bottom" constant="31.5" id="gza-Vd-cCV"/>
+                            <constraint firstItem="4qZ-mO-PyF" firstAttribute="top" secondItem="OS3-Lq-z5v" secondAttribute="bottom" constant="60.5" id="uKD-FV-dh0"/>
                             <constraint firstItem="4qZ-mO-PyF" firstAttribute="centerY" secondItem="DrL-X3-VDg" secondAttribute="centerY" id="zJk-CH-k45"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XNO-Yj-yww"/>
@@ -134,18 +153,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vld-gE-c1Q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1575.2" y="-1381.2593703148427"/>
+            <point key="canvasLocation" x="-671.20000000000005" y="-1014.2428785607198"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up View Controller-->
         <scene sceneID="ZjP-Qu-UmP">
             <objects>
-                <viewController id="tJX-fy-MX4" sceneMemberID="viewController">
+                <viewController id="tJX-fy-MX4" customClass="SignUpViewController" customModule="example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="htj-NY-VUo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y22-4p-UBT">
-                                <rect key="frame" x="62" y="233" width="250" height="200"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="y22-4p-UBT">
+                                <rect key="frame" x="62.5" y="233.5" width="250" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="0WU-8D-MOe"/>
+                                    <constraint firstAttribute="height" constant="200" id="pCF-MW-zFZ"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -187,7 +210,7 @@
                     <tabBarItem key="tabBarItem" title="Perfil" image="Usuario" id="z6s-yU-hww"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="e7e-vb-zIc">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -214,13 +237,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yGn-dz-Fol" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2340" y="-1381"/>
+            <point key="canvasLocation" x="-1487" y="-1014"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Libro" width="30" height="30"/>
         <image name="Quest" width="30" height="30"/>
         <image name="Request" width="30" height="30"/>
         <image name="Usuario" width="30" height="30"/>
+        <image name="libro" width="30" height="30"/>
     </resources>
 </document>
